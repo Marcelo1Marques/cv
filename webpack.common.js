@@ -4,16 +4,10 @@ const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: path.resolve(__dirname, "./src/app.js"),
-  mode: "development",
   output: {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: "/assets/",
     clean: true,
-  },
-  devtool: "inline-source-map",
-  devServer: {
-    static: path.resolve(__dirname, "./dist"),
   },
   optimization: {
     runtimeChunk: "single",
@@ -33,27 +27,27 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/i,
+        test: /.css$/i,
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        test: /.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",
       },
       {
-        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        test: /.(woff|woff2|eot|ttf|otf)$/i,
         type: "asset/resource",
       },
       {
-        test: /\.m?js$/,
+        test: /.m?js$/,
         exclude: /(node_modules|bower_components)/,
         use: {
-          loader: 'babel-loader',
+          loader: "babel-loader",
           options: {
-            presets: ['@babel/preset-env']
-          }
-        }
-      }
+            presets: ["@babel/preset-env"],
+          },
+        },
+      },
     ],
   },
 };
