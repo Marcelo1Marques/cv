@@ -43,6 +43,14 @@
   height: 100vh;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
 .w-96 {
   width: 24rem;
 }
@@ -83,6 +91,10 @@
   padding-top: 2rem;
 }
 
+.pl-8  {
+  padding-left: 2rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
@@ -96,8 +108,21 @@
   padding-right: 2rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
 .text-center { 
   text-align: center;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .underline {
