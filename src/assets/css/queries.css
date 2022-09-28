@@ -1,6 +1,7 @@
 @media screen and (max-width: 425px) {   
     .text-xs {
-        font-size: x-small;
+        font-size: 0.5rem; /* 12px */
+        line-height: 1rem; /* 16px */    
     } 
 };
 
