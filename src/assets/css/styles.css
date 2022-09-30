@@ -64,7 +64,8 @@
 }
 
 .bg-beige {
-  background-color: beige;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(245,245,220,1) 0%, rgba(74,222,128,1) 100%);
 }
 
 .text-fuchsia-800 {
@@ -111,8 +112,12 @@
   padding-top: 1rem;
 }
 
-.pl-4 {
-  padding-left: 1rem;
+.pl-12 {
+  padding-left: 3rem;
+}
+
+.pl-20 {
+  padding-left: 5rem;
 }
 
 .px-8 {

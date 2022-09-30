@@ -3,6 +3,9 @@
         font-size: 0.5rem; /* 12px */
         line-height: 1rem; /* 16px */    
     } 
+    .pl-6 {
+        padding-left: 1.5rem;
+    }
 };
 
 @media screen and (max-width: 1023px) and (min-width: 426px) {
