@@ -60,12 +60,12 @@
 }
 
 .bg-green-300 {
-  background-color: #4ade80;
+  background-color: #c291c2;
 }
 
 .bg-beige {
   background: rgb(2,0,36);
-  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(245,245,220,1) 0%, rgba(74,222,128,1) 100%);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(207, 207, 117) 0%, rgb(31, 85, 51) 100%);
 }
 
 .text-fuchsia-800 {
